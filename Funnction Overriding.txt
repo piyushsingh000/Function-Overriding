@@ -1,0 +1,24 @@
+#include <iostream.h>  
+using namespace std;  
+class State
+{  
+public:  
+void name()
+{    
+cout<<"Jaipur, ";    
+} 	 
+};   
+class Country: public State    
+{    
+public:  
+void name()    
+{    
+cout<<"Jaipur, India";    
+}    
+};  
+int main()
+{  
+Country s = Country();    
+s.name();  
+return 0;  
+}
